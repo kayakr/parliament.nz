@@ -1,0 +1,20 @@
+{
+  "organizations":[
+    {
+      "id": "national-party",
+      "name": "National Party",
+      "other_names": [
+        {
+          "name": "National",
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "https://www.national.org.nz/",
+          "note": "Party website",
+        },
+      ]
+    }
+  ]
+}
