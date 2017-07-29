@@ -4,8 +4,8 @@
     <meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
-        <TLCPerson id="chris.bishop" href="" showAs="CHRIS BISHOP (National)"/>
-        <TLCPerson id="keith.bain" href="/ontology/person/ca-ns.keith.bain" showAs="MR. KEITH BAIN"/>
+        <TLCPerson id="bishop-chris" href="" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="bain-keith" href="/ontology/person/ca-ns.keith.bain" showAs="MR. KEITH BAIN"/>
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
         <TLCPerson id="chairperson" href="/ontology/person/ca-ns.chairperson" showAs="The CHAIRPERSON (Hon Trevor Mallard){?}"/>
       </references>
