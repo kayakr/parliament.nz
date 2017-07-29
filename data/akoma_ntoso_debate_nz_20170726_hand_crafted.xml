@@ -4,8 +4,8 @@
     <meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
-        <TLCPerson id="chris.bishop" href="" showAs="CHRIS BISHOP (National)"/>
-        <TLCPerson id="keith.bain" href="/ontology/person/ca-ns.keith.bain" showAs="MR. KEITH BAIN"/>
+        <TLCPerson id="bishop-chris" href="" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="bain-keith" href="/ontology/person/ca-ns.keith.bain" showAs="MR. KEITH BAIN"/>
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
         <TLCPerson id="chairperson" href="/ontology/person/ca-ns.chairperson" showAs="The CHAIRPERSON (Hon Trevor Mallard){?}"/>
       </references>
@@ -22,7 +22,7 @@
     </preface>
     
     <debateBody>
-      <prayers/>
+      <prayers></prayers>
       
       <questions>
        <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
@@ -41,10 +41,10 @@
         <heading>In Committee</heading>
         <heading>Part 1 Substantive amendments to principal Act</heading>
 
-        <speech by="#chris.bishop">
+        <speech by="#bishop-chris">
          <a name="time_20170726 16:05:46"></a>
          <from>CHRIS BISHOP (National)</from>
-         <p>So Part 1 of the Films, Videos, and Publications Classification (Interim Restriction Order Classification) Amendment Bill—a catchy title, as my colleague Maggie Barry said during the second reading of this bill—deals with the substantive amendments to the principal Act, which is, of course, the Films, Videos, and Publications Classification Act 1993. The Act been amended a couple of times—I think probably more than a couple of times—over the last 24 years since it was passed. It is probably an Act that is need of a bit more of a substantive review as we move into the internet age. But what this bill does is make a couple of very small but, I think, very useful changes to advance and improve freedom of expression in New Zealand.
+         <p>So Part 1 of the Films, Videos, and Publications Classification (Interim Restriction Order Classification) Amendment Bill—a catchy title, as my colleague Maggie Barry said during the second reading of this bill—deals with the substantive amendments to the principal Act, which is, of course, the Films, Videos, and Publications Classification Act 1993. The Act been amended a couple of times—I think probably more than a couple of times—over the last 24 years since it was passed. It is probably an Act that is need of a bit more of a substantive review as we move into the internet age. But what this bill does is make a couple of very small but, I think, very useful changes to advance and improve freedom of expression in New Zealand.</p>
 
         <p>In the first and second readings of this bill members in the House canvassed the issues around the book <em>Into the River</em>, which was the genesis for this bill, basically—the unfortunate events of 2015 around <em>Into the River</em>, the award-winning novel by Ted Dawe. What happened there—and I do not want to traverse again the potted history—</p>
 </speech>
