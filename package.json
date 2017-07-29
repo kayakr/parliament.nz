@@ -1,7 +1,7 @@
 {
   "name": "parliament.nz-scraper",
   "version": "0.0.1",
-  "description": "A sample Node.js app using Express 4",
+  "description": "Sample node.js scrapers",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,12 +9,12 @@
   "dependencies": {
     "cheerio": "^0.18.0",
     "csv-parse": "0.1.0",
-    "request": "^2.51.0"
+    "request": "^2.51.0",
+    "sqlite3": "latest"
   },
   "engines": {
     "node": "0.10.x"
   },
-
   "keywords": [
     "node",
     "express"
