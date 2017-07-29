@@ -17,3 +17,13 @@ A collection of projects to improve parliament.nz as an entry for GovHackNZ 2017
 * Jonathan
 
 https://2017.hackerspace.govhack.org/project/open-voices
+
+## Notes
+
+* Terms of Parliament https://raw.githubusercontent.com/everypolitician/everypolitician-data/master/data/New_Zealand/House/sources/manual/terms.csv
+* "51st New Zealand Parliament" https://www.wikidata.org/wiki/Q4640115
+
+
+## References
+
+* 
