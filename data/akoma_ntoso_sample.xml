@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<akomaNtoso>
+  <debate name="hansard">
+    <meta>
+      <references source="#source">
+        <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
+        <TLCPerson id="keith.bain" href="/ontology/person/ca-ns.keith.bain" showAs="MR. KEITH BAIN"/>
+      </references>
+    </meta>
+    
+     <preface>
+      <docTitle>Debates, 1 November 2011</docTitle>
+      <docNumber>11-36</docNumber>
+      <docDate date="2011-11-01">Tuesday, November 1, 2011</docDate>
+      <docAuthority>Nova Scotia House of Assembly</docAuthority>
+      <legislature value="61">61st General Assembly</legislature>
+      <session value="3">3rd Session</session>
+      <link rel="alternate" type="text/html" href="http://nslegislature.ca/index.php/proceedings/hansard/C81/house_11nov01/"/>
+    </preface>
+    
+    <debateBody>
+      <speech by="" as="#speaker" status="undefined"><from>MR. SPEAKER</from><p>Order, please. Before we begin the daily routine, the topic for the late debate has been chosen. It has been submitted by the honourable member for Hants West and it reads:</p>
+<p>Therefore be it resolved that all members of this House of Assembly urge the NDP Government to stop downloading their financial hardships to the backs of hard-working Nova Scotians and admit that the broken MOU is just another hidden NDP tax.</p>
+<p>We will begin the daily routine.</p></speech>
+      <petitions>
+        <heading>PRESENTING AND READING PETITIONS</heading>
+        <speech by="" as="#speaker" status="undefined">
+          <from>MR. SPEAKER</from>
+          <p>The honourable member for Victoria-The Lakes.</p>
+        </speech>
+        <speech by="#keith.bain"><from>MR. KEITH BAIN</from><p>Mr. Speaker, I beg leave to table a petition, the operative clause being:</p>
+<blockquote>&#x201C;We, the undersigned, and concern [sic] citizens and benefactors of the Millpond and King Grove Road call upon the Province of 
+				Nova Scotia to recognizes [sic] the deplorable and unsafe conditions of these roads and invest in the community by making necessary &#x2026; upgrades to a 
+				10.7 Km. section &#x2026;&#x201D;</blockquote>
+<p>Mr. Speaker, the petition contains 493 signatures, and I've affixed my signature as well.</p></speech>
+        <speech by="" as="#speaker" status="undefined">
+          <from>MR. SPEAKER</from>
+          <p>The petition is tabled.</p>
+        </speech>
+      </petitions>
+    </debateBody>
+    
+  </debate>
+</akomaNtoso>
