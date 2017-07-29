@@ -1,5 +1,6 @@
 {
-  "organizations":[
+  "persons": [],
+  "organizations": [
     {
       "id": "national-party",
       "name": "National Party",
@@ -16,5 +17,6 @@
         },
       ]
     }
-  ]
+  ],
+  "posts": []
 }
