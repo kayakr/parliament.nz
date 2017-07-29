@@ -3,6 +3,24 @@
 
 from bs4 import BeautifulSoup
 import requests
+import sys
+
+class Debate:
+    title = ""
+    subTitle = ""
+    speeches = []
+
+    def asXML(self):
+        x = '<Debate>\n'
+        x = x + '<title>' + self.title + '</title>\n'
+        x = x + '<subtitle>' + self.subTitle + '</subtitle>\n'
+        if len(self.speeches) > 0:
+            x = x + '<Speeches>\n'
+            for s in self.speeches:
+                x = x + s.asXML() 
+            x = x + '</Speeches>\n'
+        x = x + '</Debate>'
+        return x
 
 class BillDebate:
     title = ""
@@ -110,59 +128,85 @@ def parseIntervention(tag):
     c.name = f[0:p]
     return c
 
-## main stuff here
 
-bills = []
-r = requests.get("https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170726_20170726")
+def main(date):
+    bills = []
+    debates = []
 
-data = r.text
-soup = BeautifulSoup(data, "html.parser")
+    url = "https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_" + date + '_' + date
+    r = requests.get(url)
+    if r.status_code != 200:
+        return
 
-count = 1
-for body in soup.find_all('body'):
-    n = body.find_all('body')
-    for b2 in n:
-        p = b2.find_all('p')
-        currentBill = None
-        currentSpeech = None
-        for para in p:
-            c = para['class'][0]
-            #print(c)
-            if c == "BillDebate":
-                bill = BillDebate()
-                bill.title = flatten(para)
-                bills.append(bill)
-            if c == "SubDebate":
-                if len(bills) > 0:
-                    currentBill = bills[-1]
-                    currentBill.subTitle = flatten(para)
-            if c == "Speech":
-                if currentBill != None:
-                    currentSpeech = parseSpeech(para)
-                    currentBill.speeches.append(currentSpeech)
-            if c == "a":
-                if currentSpeech != None:
-                    s = parseA(para)
-                    if s.name == "":
-                        s.name = currentSpeech.by
-                    currentSpeech.content.append(s)
-            if c == "Interjection":
-                if currentSpeech != None:
-                    s = parseInterjection(para)
-                    currentSpeech.content.append(s)
+    data = r.text
+    soup = BeautifulSoup(data, "html.parser")
 
-            if c == "ContinueSpeech":
-                if currentSpeech != None:
-                    s = parseContinueSpeech(para)
-                    currentSpeech.content.append(s)
-            if c == "Intervention":
-                if currentSpeech != None:
-                    s = parseIntervention(para)
-                    currentSpeech.content.append(s)
-print('<?xml version="1.0" encoding="UTF-8"?>')
-print("<Bills>")
-for b in bills:
-    xml = b.asXML().encode('utf-8')
-    print(xml )
+    count = 1
+    for body in soup.find_all('body'):
+        n = body.find_all('body')
+        for b2 in n:
+            p = b2.find_all('p')
+            current = None
+            currentSpeech = None
+            for para in p:
+                c = para['class'][0]
+                if c == "BillDebate":
+                    bill = BillDebate()
+                    bill.title = flatten(para)
+                    bills.append(bill)
+                    current = bill
+                if c == "Debate":
+                    debate = Debate()
+                    debate.title = flatten(para)
+                    debates.append(debate)
+                    current = debate
+                   
+                if c == "SubDebate":
+                    if current != None:
+                        current.subTitle = flatten(para)
+                if c == "Speech":
+                    if current != None:
+                        currentSpeech = parseSpeech(para)
+                        current.speeches.append(currentSpeech)
+                if c == "a":
+                    if currentSpeech != None:
+                        s = parseA(para)
+                        if s.name == "":
+                            s.name = currentSpeech.by
+                        currentSpeech.content.append(s)
+                if c == "Interjection":
+                    if currentSpeech != None:
+                        s = parseInterjection(para)
+                        currentSpeech.content.append(s)
 
-print('</Bills>')
+                if c == "ContinueSpeech":
+                    if currentSpeech != None:
+                        s = parseContinueSpeech(para)
+                        currentSpeech.content.append(s)
+                if c == "Intervention":
+                    if currentSpeech != None:
+                        s = parseIntervention(para)
+                        currentSpeech.content.append(s)
+                        
+    print('<?xml version="1.0" encoding="UTF-8"?>')
+    print("<Debates>")
+    for b in debates:
+        xml = b.asXML().encode('utf-8')
+        print(xml )
+
+    print('</Debates>')
+    
+    print("<Bills>")
+    for b in bills:
+        xml = b.asXML().encode('utf-8')
+        print(xml )
+
+    print('</Bills>')
+
+if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        date = sys.argv[1]
+        main(date)
+    else:
+        print('[*] usage: python scrape.py "DATE"')
+        print('[*]   e.g: python scrape.py 20170726')
