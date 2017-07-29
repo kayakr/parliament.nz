@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<akomaNtoso>
+  <debate name="hansard">
+    <meta>
+      <references source="#source">
+        <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
+        <TLCPerson id="bishop-chris" href="#" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="borrows-chester" href="#" showAs="Hon Chester Borrows"/>
+        <TLCPerson id="curran-clare" href="#" showAs="CLARE CURRAN (Labour)"/>
+        <TLCPerson id="mallard-trevor" href="#" showAs="Hon Trevor Mallard"/>
+        
+        <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
+        <TLCPerson id="chairperson" href="/ontology/person/ca-ns.chairperson" showAs="The CHAIRPERSON"/>
+      </references>
+    </meta>
+    
+     <preface>
+      <docTitle>Debates, Thursday, 27 July 2017 - Volume 724</docTitle>
+      <docNumber>724</docNumber>
+      <docDate date="2017-07-27">Thursday, 27 July 2017</docDate>
+      <docAuthority>parliament.nz</docAuthority>
+      <legislature value="51">51st Parliament</legislature>
+      <session value="1">1st Session?</session>
+      <link rel="alternate" type="text/html" href="https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170727_20170727"/>
+    </preface>
+    
+    <debateBody>
+      <prayers></prayers>
+      
+      <questions>
+       <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
+       <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</answer>
+ 
+      </questions>
+
+      <speech by="#curran-clare" as="MP for Labour-Dunedin South" startTime="2017-07-27T13:20:00.000+12:00">
+        <a name="time_20170727 15:54:55"></a>
+        <from>CLARE CURRAN (Labour—Dunedin South)</from>
+        <p>I want to change the topic of conversation somewhat and improve the quality of the debate. My comments relate to Vote Prime Minister and Cabinet and also Vote Ombudsmen. I want to address issues with regard to ethical behaviours, integrity, and transparency of Government, which I would hope that anybody listening to this debate today would consider to be rather important.</p>
+        <p>I want to highlight what I believe is the insincerity and deceit of this Government between its statements and its actions. People do believe, and they expect, that Governments should behave in predictable, open, and transparent ways. When it comes to blockage of access to information, the demonising of whistleblowers, the neglect in ensuring that the privacy rights of citizens are in step with community expectations, and of course the lack of value and investment in public interest media—these are all symptoms of a democracy in decline.</p>
+        <p>I want to refer to the transcript in the Estimates for Vote Prime Minister and Cabinet where Andrew Kibblewhite, the chief executive of the department, referred that the Cabinet Office was "busy working on implementing the refreshed <em>Cabinet Manual</em>, which the Prime Minister launched last night." He referred to the principles in the manual representing "the best of our system of executive Government: robust decision-making processes, respect for the law, integrity, effectiveness and efficiency, openness and accountability."</p>
+        <p>With reference to respect for the law, when you look at the very top of our Government there are questions around the respect for the law by our own Prime Minister in relation to the Todd Barclay debacle, where at its best the answers that have been given to the public and to this very Parliament can be described as being economical with the truth, and at its very worst, as having the potential for lying to the people of New Zealand and assisting with an illegal cover-up.</p>
+        <p>This is extremely serious and it is something that the people of New Zealand do take seriously.</p>
+      </speech>
+      
+      <speech by="#borrows-chester" as="#chairperson">
+        <from>The CHAIRPERSON (Hon Chester Borrows)</from>
+        <p class="Interjection">I just want to warn the member that she needs to be very careful that what she is speaking to is this report, and the assertions that she might make may well fall outside of the bounds of what is allowable in the House.</p>
+      </speech>
+      
+      <speech by="#curran-clare">
+        <from>CLARE CURRAN</from>
+        <p class="ContinueSpeech">Thank you, Mr Chair. I am addressing an updated <em>Cabinet Manual</em> that was referred to in the Estimates discussion at a select committee, which went right to the way that the integrity of Government can be measured and upheld. So it is a valid area for debate, and it is valid that members in this House can raise these matters. What we are hearing consistently in answers from the Prime Minister to oral questions is that "I have no responsibility for that, as the Prime Minister.", or "I've given all the answers I'm going to give on that.", and other such answers, which are not, in my view at least, and in the view of this part of the House—that shows a decline in integrity and a decline in standards that should be considered very worrying.</p>
+        <p>In the time I have left I want to acknowledge the role that the Office of the Ombudsmen plays, the integrity of the Ombudsman, Peter Boshier, and the work that he is doing on trying to get the huge backlog of complaints on the refusal to release information by this Government—to get those complaints through and to get that information released. This is a critical area where the effectiveness of Government can be measured. If people are going to vote in this election they have to be assured that the Government does have integrity.</p>
+      </speech>
+      
+      <!-- not sure if remark is the best element to use -->
+      <remark>
+        <p class="IndentMarginalone">Votes agreed to.</p>
+      </remark>
+    </debateBody>
+    
+  </debate>
+</akomaNtoso>
