@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 <akomaNtoso>
   <debate name="hansard">
@@ -35,7 +34,7 @@
 <link rel="alternate" type="text/html" href="https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170726_20170726"/>
 </Preface>
 
-<DebateBody>
+<debateBody>
 <questions>
             <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
             <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</answer>
@@ -170,7 +169,7 @@
 </speech>
 </petitions>
 
-</DebateBody>
+</debateBody>
 
     
   </debate>

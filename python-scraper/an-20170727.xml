@@ -1,4 +1,3 @@
-
 <?xml version="1.0"?>
 <akomaNtoso>
   <debate name="hansard">
@@ -35,7 +34,7 @@
 <link rel="alternate" type="text/html" href="https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170727_20170727"/>
 </Preface>
 
-<DebateBody>
+<debateBody>
 <questions>
             <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
             <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</answer>
@@ -61,7 +60,7 @@
 <p> Well, by way of explanation, the timer was going up because you were told you had 3 minutes and 55 seconds. It is easier to calculate if we set the timer from zero going up, so that when it hits 3.55, we can press a button and make you sit down—albeit it has not been that effective in doing that—and now you will notice that the time will start from 5 minutes and count down to zero.</p>
 </speech>
 
-</DebateBody>
+</debateBody>
 
     
   </debate>

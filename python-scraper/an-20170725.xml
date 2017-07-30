@@ -34,7 +34,7 @@
 <link rel="alternate" type="text/html" href="https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170725_20170725"/>
 </Preface>
 
-<DebateBody>
+<debateBody>
 <questions>
             <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
             <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</answer>
@@ -93,7 +93,7 @@
 <p>Members, we come to the first of the votes in the Economic Development and Infrastructure Sector, B.5, Vol. 1. The question is that Vote Business, Science, and Innovation; Vote Labour Market; and Vote Transport stand part of the schedules.</p>
 </speech>
 
-</DebateBody>
+</debateBody>
 
     
   </debate>

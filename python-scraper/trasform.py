@@ -214,7 +214,7 @@ def main(filename):
     p = debate.preface
     print(p.asXML().encode('UTF-8'))
     # debate body
-    print('<DebateBody>')
+    print('<debateBody>')
     # questions
     q = makeQuestions()
     print(q.asXML().encode('UTF-8'))
@@ -228,7 +228,7 @@ def main(filename):
     for x in debate.petitions:
         print(x.asXML().encode('UTF-8'))
 
-    print('</DebateBody>')
+    print('</debateBody>')
     footer = '''
     
   </debate>
