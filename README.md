@@ -7,7 +7,7 @@ A collection of projects to improve parliament.nz as an entry for GovHackNZ 2017
 * run an NZ SayIt instance.
 * Scrape Hansard debate transcript HTML and transform it to Akoma Ntoso XML.
 * Ingest Akoma Ntoso debate transcript XML into SayIt.
-* Provide a REST API for other services.
+* Provide a REST API for other services (API root at: <tt>/api/v0.1/</tt>).
 * (Repository was "A simple node.js script to scrape data about Ministers of Parliament (MPs) from parliament.nz and return it as JSON.")
 
 ## Team
