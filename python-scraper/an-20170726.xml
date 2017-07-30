@@ -5,19 +5,19 @@
 <Meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
-        <TLCPerson id="bishop-christopher" href="/ontology/person/bishop-christopher" showAs="CHRIS BISHOP (National)"/>
-        <TLCPerson id="little-andrew" href="/ontology/person/little-andrewr" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
-        <TLCPerson id="tirikatene-rino" href="/ontology/person/tirikatene-rino" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
-       <TLCPerson id="borrows-chester" href="/ontology/person/borrows-chester" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
-        <TLCPerson id="sepuloni-carmel" href="/ontology/person/sepuloni-carmel" showAs="Carmel Sepuloni"/>
-        <TLCPerson id="curran-clare" href="/ontology/person/curran-clare" showAs="Clare Curran"/>
-        <TLCPerson id="dyson-ruth" href="/ontology/person/dyson-ruth" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
-        <TLCPerson id="mallard-trevor" href="/ontology/person/mallard-trevor" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
-        <TLCPerson id="tisch-lindsay" href="/ontology/person/tisch-lindsay" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
-        <TLCPerson id="bennett-paula" href="/ontology/person/bennett-paula" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
-        <TLCPerson id="speaker-deputy" href="/ontology/person/speaker-deputy" showAs="Mr Deputy Speaker"/>
-        <TLCPerson id="prosser-richard" href="/ontology/person/prosser-richard" showAs="RICHARD PROSSER (NZ First)"/>
-        <TLCPerson id="english-bill" href="/ontology/person/english-bill" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
+        <TLCPerson id="chris-bishop" href="#" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="andrew-little" href="#" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
+        <TLCPerson id="rino-tirikatene" href="#" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
+       <TLCPerson id="chester-borrows" href="#" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
+        <TLCPerson id=carmel-"sepuloni" href="#" showAs="Carmel Sepuloni"/>
+        <TLCPerson id="clare-curran" href="#" showAs="Clare Curran"/>
+        <TLCPerson id="dyson-ruth" href="#" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
+        <TLCPerson id="mallard-trevor" href="#" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
+        <TLCPerson id="lindsay-tisch" href="#" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
+        <TLCPerson id="paula-bennett" href="#" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
+        <TLCPerson id="speaker-deputy" href="#" showAs="Mr Deputy Speaker"/>
+        <TLCPerson id="richard-prosser" href="#" showAs="RICHARD PROSSER (NZ First)"/>
+        <TLCPerson id="bill-english" href="#" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
  
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
       </references>
@@ -56,52 +56,52 @@
 <petitions>
 <heading>FILMS, VIDEOS, AND PUBLICATIONS CLASSIFICATION (INTERIM RESTRICTION ORDERS) AMENDMENT BILL</heading>
 <heading>In Committee</heading>
-<speech by="#bishop-christopher">
+<speech by="#christopher-bishop">
 <from>CHRIS BISHOP (National)</from>
 <p> So Part 1 of the Films, Videos, and Publications Classification (Interim Restriction Order Classification) Amendment Bill—a catchy title, as my colleague Maggie Barry said during the second reading of this bill—deals with the substantive amendments to the principal Act, which is, of course, the Films, Videos, and Publications Classification Act 1993. The Act been amended a couple of times—I think probably more than a couple of times—over the last 24 years since it was passed. It is probably an Act that is need of a bit more of a substantive review as we move into the internet age. But what this bill does is make a couple of very small but, I think, very useful changes to advance and improve freedom of expression in New Zealand.</p>
 <p>In the first and second readings of this bill members in the House canvassed the issues around the book Into the River, which was the genesis for this bill, basically—the unfortunate events of 2015 around Into the River, the award-winning novel by Ted Dawe. What happened there—and I do not want to traverse again the potted history—</p>
 </speech>
-<speech by="#mallard-trevor">
+<speech by="#trevor-mallard">
 <from>The CHAIRPERSON (Hon Trevor Mallard)</from>
 <p> No, that would be irrelevant.</p>
 </speech>
-<speech by="#bishop-christopher">
+<speech by="#christopher-bishop">
 <from>CHRIS BISHOP (National)</from>
 <p> —because it takes about 6 minutes to explain and, as the Chair is pointing out, it would be irrelevant. But I do want to draw the Committee's attention to the exact changes in Part 1 to try to remedy the situation, to try to make sure that does not happen again.</p>
 <p>So what we have in clause 4 of Part 1 is the replacement of section 49 with a new and expanded new section 49, which will become section 49 of the Act, to basically expand the tool kit that the president of the board of review, and also the High Court, can use when considering interim restriction orders. Basically, what happened with Into the River was that Family First lodged an appeal—the second appeal, or the fourth time a body was going to classify the book Into the River. Family First lodged an appeal and used this little-known section of the Act we are talking about, which was the power for the president to order an interim restriction. What the president did in that situation was—they did decide to do that and, of course, we had the effect of the book not being available for 6 weeks before the board of review met. Basically, the president was placed in that position because of the binary nature of interim restrictions.</p>
 <p>So what new section 49 in clause 4 of this bill does is expand the tool kit. In particular, I am talking about subsection (3), which allows—sorry, it is subsection (3)(d), or (b). It allows—I will start that again. Section 49, subsection (3), paragraph (b)—</p>
 </speech>
-<speech by="#mallard-trevor">
+<speech by="#trevor-mallard">
 <from>The CHAIRPERSON (Hon Trevor Mallard)</from>
 <p> Clause 4.</p>
 </speech>
-<speech by="#bishop-christopher">
+<speech by="#christopher-bishop">
 <from>CHRIS BISHOP (National)</from>
 <p> No, no, paragraph—the Chair is pointing out that I mean clause 4, but I actually mean subsection (3)(b), which allows the president to issue an interim restriction order that is more appropriately calibrated to the specific harm that may or may not be, in the opinion of the president, occurring as a result of this order. So what it does is it allows the president to issue an order that is more closely calibrated to the specific harm.</p>
 <p>In the case of Into the River, which had been at various points classified R18 or R14, rather than simply saying that this publication is objectionable pending further appeal, they could say, I suppose, "It is partially objectionable but we will maintain it to be available for people over the age of 18.", or in the case—as you sometimes see going into things like the incredible film festival in Wellington in the early 2000s, you could also say it is available for film festival viewings or for tertiary study. I have a sort of objection in principle to the idea of restricting speech based on the fact that people are in tertiary education, or saying that a higher class of people go to film festivals. I tend to think that is a bit ridiculous, actually. But, regardless, that is in the Act, and that power, I suppose, to restrict to a specific audience is in the Act.</p>
 </speech>
-<speech by="#curran-clare">
+<speech by="#clare-curran">
 <from>Clare Curran</from>
 <p> I can feel another member's bill coming on.</p>
 </speech>
-<speech by="#bishop-christopher">
+<speech by="#christopher-bishop">
 <from>CHRIS BISHOP</from>
 <p> So I am not going to traverse that. I did not hear that interjection, but—</p>
 </speech>
-<speech by="#curran-clare">
+<speech by="#clare-curran">
 <from>Clare Curran</from>
 <p> That's your next member's bill.</p>
 </speech>
-<speech by="#bishop-christopher">
+<speech by="#christopher-bishop">
 <from>CHRIS BISHOP (National)</from>
 <p> Oh, that is my next member's bill, says Clare Curran. Well, possibly—I mean, this Parliament has got only a short run of life left in it, but you never know. My next member's bill is actually around celebrancy. I might get the third luck of the ballot on that one, but I highly doubt it—I do not think we can have another member's day.</p>
 <p>So, anyway, that is the substantive amendment advanced through new section 49. Then, of course, we come to clause 5 of the bill—[Bell rung] Mr Chair.</p>
 </speech>
-<speech by="#mallard-trevor">
+<speech by="#trevor-mallard">
 <from>The CHAIRPERSON (Hon Trevor Mallard)</from>
 <p> I will call the member again, but I will remind him that we are discussing three clauses: clauses 4, 5, and 6. The member might be talking about a section of another Act, and if that is the case—he is a lawyer. He should know.</p>
 </speech>
-<speech by="#bishop-christopher">
+<speech by="#christopher-bishop">
 <from>CHRIS BISHOP (National)</from>
 <p> Thank you, Mr Chair. We come to clause 5, which deals with similar powers to do with interim restrictions to do with the High Court. It is a little-known section about the power to do with interim restrictions in that they can also be appealed to the High Court. What the bill does is, essentially, replicate the same powers as in clause 4 of the bill in new section 67 in clause 5 in relation to the High Court, and that is just a consequential change that has to be replicated in the appeals to the High Court as a result of the changes we are making in clause 4 to section 49 of the Act.</p>
 <p>Clause 6 inserts new section 133A. Again, this is a change that is necessary in response to the changes we are making through clause 4, which is about the potential penalties for people who contravene an interim restriction order. What the bill proposes as a result of the changes made by the very hard-working Justice and Electoral Committee is in subsection (3), which will make people liable to conviction or a fine not exceeding $3,000 or, in the case of a body corporate, $10,000. We had a bit of debate in the select committee, I think it is fair to say, about the level of fines. You could probably argue they should be greater, but we have decided to go for the moderate option that is put forward in the bill. So, with those brief introductory remarks, I will leave it there.</p>
@@ -111,7 +111,7 @@
 <petitions>
 <heading>PRIVATE INTERNATIONAL LAW (CHOICE OF LAW IN TORT) BILL</heading>
 <heading>In Committee</heading>
-<speech by="#tisch-lindsay">
+<speech by="#lindsay-tisch">
 <from>The CHAIRPERSON (Lindsay Tisch)</from>
 <p> This is debate on clauses 3 to 4, and schedule 1.</p>
 </speech>
@@ -120,7 +120,7 @@
 <petitions>
 <heading>HEALTHY HOMES GUARANTEE BILL (NO 2)</heading>
 <heading>Second Reading</heading>
-<speech by="#little-andrew">
+<speech by="#andrew-little">
 <from>ANDREW LITTLE (Leader of the Opposition)</from>
 <p> I move, That the Healthy Homes Guarantee Bill (No 2) be now read a second time. This is, as members on this side of the House will know, a very important bill. It is, at the very least, symbolic about the very important challenges that New Zealand faces today. On this bill, the Government Administration Committee received 85 submissions, but there have been expressions of support from a large number of people from a number of other quarters as well.</p>
 <p>The submissions that the select committee received came from organisations and private individuals from the length and breadth of the country. I would like to thank all those who made submissions on the bill and those who made oral submissions, in particular, and brought their very compelling reasons for support for the bill.</p>
@@ -132,11 +132,11 @@
 <p>Every rental property should be insulated, should be weathertight, and should have adequate heating. It is not too much to ask. You see, it is not just a problem for the poor. It is any tenant—anybody in a rental property. And here is the thing: there are thousands of landlords who are doing the right thing already and who know that it is the right thing to do as a landlord. We have got a housing crisis that is locking middle New Zealand and families out of homeownership, and that is why what this bill says is so important. It is about getting it right for those who have to rent. This bill is about standing up for those New Zealanders who have to rent.</p>
 <p>And so the challenge for the Government is this—and we will see what way it votes tonight. The simple question for the Government is this: whose side is it on? Is it on the side of the slum landlords who do not care about their tenants—push them in, pull them out, put a new one in, and collect the rent—or is it on the side of New Zealanders who have a reasonable expectation that the place they end up renting is going to be safe and healthy for them to do so?</p>
 </speech>
-<speech by="#sepuloni-carmel">
+<speech by="#carmel-sepuloni">
 <from>Carmel Sepuloni</from>
 <p> Whose side are they on?</p>
 </speech>
-<speech by="#little-andrew">
+<speech by="#andrew-little">
 <from>ANDREW LITTLE (Leader of the Opposition)</from>
 <p> And that will be the challenge tonight. Whose side is the Government on?</p>
 <p>You see, responsible landlords are telling us that this is a good bill. It will not impose big costs. When you look at the asset that this is about—a house, a private dwelling, a residential dwelling—and the life of that asset, the costs that this bill will impose on those who have not got their properties up to standard yet will be negligible. But they will be costs that will make a difference—make a difference for children, make a difference for adult tenants, and help to save lives.</p>
@@ -151,7 +151,7 @@
 <petitions>
 <heading>RATES REBATE (RETIREMENT VILLAGE RESIDENTS) AMENDMENT BILL</heading>
 <heading>Second Reading</heading>
-<speech by="#dyson-ruth">
+<speech by="#ruth-dyson">
 <from>Hon RUTH DYSON (Labour—Port Hills)</from>
 <p> I move, That the Rates Rebate (Retirement Village Residents) Amendment Bill be now read a second time. Early in the 1970s a great Prime Minister, Norman Kirk, looked at the situation that low-income earners found themselves in after they purchased a house and were, obviously, faced with an annual rates bill, which, for people then and now, is big. There is no way of avoiding it—it is not an option. You cannot say: "Oh, I'll do without the rates so I won't pay my rates." It is not like food or clothes or travel; you have to pay it. So he decided to introduce a rates rebate scheme—that was central Government money that was passed through to homeowners via local government. It was on a sliding scale, so the higher your rates and the lower your income, the more money you got. It is a very straightforward scheme based on an important principle: that people on low incomes who have high expenses not of their choosing deserve some financial support.</p>
 <p>In those days, there was no such thing as licence to occupy; there was just freehold title or leasehold title. There was no such thing as licence to occupy. In fact, even now, within retirement villages—which are what this bill seeks to address—there is a mix of freehold title, unit title, and licence to occupy. This bill wants to extend the eligibility for application for rates rebate to those in retirement villages who have a licence to occupy. Those people pay rates. They pay them to the retirement village owner, and the retirement village owner then passes them over to the city council or district council.</p>

@@ -57,19 +57,19 @@ class Meta:
         x = '''<Meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
-        <TLCPerson id="bishop-christopher" href="/ontology/person/bishop-christopher" showAs="CHRIS BISHOP (National)"/>
-        <TLCPerson id="little-andrew" href="/ontology/person/little-andrewr" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
-        <TLCPerson id="tirikatene-rino" href="/ontology/person/tirikatene-rino" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
-       <TLCPerson id="borrows-chester" href="/ontology/person/borrows-chester" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
-        <TLCPerson id="sepuloni-carmel" href="/ontology/person/sepuloni-carmel" showAs="Carmel Sepuloni"/>
-        <TLCPerson id="curran-clare" href="/ontology/person/curran-clare" showAs="Clare Curran"/>
-        <TLCPerson id="dyson-ruth" href="/ontology/person/dyson-ruth" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
-        <TLCPerson id="mallard-trevor" href="/ontology/person/mallard-trevor" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
-        <TLCPerson id="tisch-lindsay" href="/ontology/person/tisch-lindsay" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
-        <TLCPerson id="bennett-paula" href="/ontology/person/bennett-paula" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
-        <TLCPerson id="speaker-deputy" href="/ontology/person/speaker-deputy" showAs="Mr Deputy Speaker"/>
-        <TLCPerson id="prosser-richard" href="/ontology/person/prosser-richard" showAs="RICHARD PROSSER (NZ First)"/>
-        <TLCPerson id="english-bill" href="/ontology/person/english-bill" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
+        <TLCPerson id="chris-bishop" href="#" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="andrew-little" href="#" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
+        <TLCPerson id="rino-tirikatene" href="#" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
+       <TLCPerson id="chester-borrows" href="#" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
+        <TLCPerson id=carmel-"sepuloni" href="#" showAs="Carmel Sepuloni"/>
+        <TLCPerson id="clare-curran" href="#" showAs="Clare Curran"/>
+        <TLCPerson id="dyson-ruth" href="#" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
+        <TLCPerson id="mallard-trevor" href="#" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
+        <TLCPerson id="lindsay-tisch" href="#" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
+        <TLCPerson id="paula-bennett" href="#" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
+        <TLCPerson id="speaker-deputy" href="#" showAs="Mr Deputy Speaker"/>
+        <TLCPerson id="richard-prosser" href="#" showAs="RICHARD PROSSER (NZ First)"/>
+        <TLCPerson id="bill-english" href="#" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
  
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
       </references>

@@ -5,19 +5,19 @@
 <Meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
-        <TLCPerson id="bishop-christopher" href="/ontology/person/bishop-christopher" showAs="CHRIS BISHOP (National)"/>
-        <TLCPerson id="little-andrew" href="/ontology/person/little-andrewr" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
-        <TLCPerson id="tirikatene-rino" href="/ontology/person/tirikatene-rino" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
-       <TLCPerson id="borrows-chester" href="/ontology/person/borrows-chester" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
-        <TLCPerson id="sepuloni-carmel" href="/ontology/person/sepuloni-carmel" showAs="Carmel Sepuloni"/>
-        <TLCPerson id="curran-clare" href="/ontology/person/curran-clare" showAs="Clare Curran"/>
-        <TLCPerson id="dyson-ruth" href="/ontology/person/dyson-ruth" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
-        <TLCPerson id="mallard-trevor" href="/ontology/person/mallard-trevor" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
-        <TLCPerson id="tisch-lindsay" href="/ontology/person/tisch-lindsay" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
-        <TLCPerson id="bennett-paula" href="/ontology/person/bennett-paula" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
-        <TLCPerson id="speaker-deputy" href="/ontology/person/speaker-deputy" showAs="Mr Deputy Speaker"/>
-        <TLCPerson id="prosser-richard" href="/ontology/person/prosser-richard" showAs="RICHARD PROSSER (NZ First)"/>
-        <TLCPerson id="english-bill" href="/ontology/person/english-bill" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
+        <TLCPerson id="chris-bishop" href="#" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="andrew-little" href="#" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
+        <TLCPerson id="rino-tirikatene" href="#" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
+       <TLCPerson id="chester-borrows" href="#" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
+        <TLCPerson id=carmel-"sepuloni" href="#" showAs="Carmel Sepuloni"/>
+        <TLCPerson id="clare-curran" href="#" showAs="Clare Curran"/>
+        <TLCPerson id="dyson-ruth" href="#" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
+        <TLCPerson id="mallard-trevor" href="#" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
+        <TLCPerson id="lindsay-tisch" href="#" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
+        <TLCPerson id="paula-bennett" href="#" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
+        <TLCPerson id="speaker-deputy" href="#" showAs="Mr Deputy Speaker"/>
+        <TLCPerson id="richard-prosser" href="#" showAs="RICHARD PROSSER (NZ First)"/>
+        <TLCPerson id="bill-english" href="#" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
  
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
       </references>
@@ -45,17 +45,17 @@
 <p> I have received a letter from Poto Williams seeking to debate under Standing Order 389 the Human Rights Commission's report "Institutions are places of abuse": The experiences of disabled children and adults in State care. This is a particular case of recent occurrence. The report was released today. The purpose of an urgent debate is to hold the Government to account for an action for which it is responsible, Speaker's rulings 207/2. Several previous Speakers have ruled that the absence of an action on the part of the Government is not a particular case of recent occurrence and I refer members to Speakers' rulings 212/2. The Government has not yet responded to the release of the report. It may be that an urgent debate would be warranted if a new Government policy or action is subsequently announced. In the meantime I note that the House is holding the Estimates debate, which is an opportunity to debate the Government's future spending plans. The health and social development sectors have not yet been debated. The member may wish to use that opportunity to debate this matter—Speaker's ruling 215/1. The application today is therefore declined.</p>
 </speech>
 
-<speech by="#borrows-chester">
+<speech by="#chester-borrows">
 <from>The CHAIRPERSON (Hon Chester Borrows)</from>
 <p> Order! In this debate, when you get the bell, you sit down or you seek another call. I just remind members that in this debate, we are debating the report, so members should limit—</p>
 </speech>
 
-<speech by="#tirikatene-rino">
+<speech by="#rino-tirikatene">
 <from>Rino Tirikatene</from>
 <p> I raise a point of order, Mr Chairperson.</p>
 </speech>
 
-<speech by="#borrows-chester">
+<speech by="#chester-borrows">
 <from>The CHAIRPERSON (Hon Chester Borrows)</from>
 <p> Well, by way of explanation, the timer was going up because you were told you had 3 minutes and 55 seconds. It is easier to calculate if we set the timer from zero going up, so that when it hits 3.55, we can press a button and make you sit down—albeit it has not been that effective in doing that—and now you will notice that the time will start from 5 minutes and count down to zero.</p>
 </speech>
