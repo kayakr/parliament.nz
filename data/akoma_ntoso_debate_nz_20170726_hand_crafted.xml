@@ -4,11 +4,14 @@
     <meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
+
+        <TLCPerson id="adern-jacinda" href="#" showAs="JACINDA ARDERN (Deputy Leader—Labour)"/>
         <TLCPerson id="bishop-chris" href="#" showAs="CHRIS BISHOP (National)"/>
         <TLCPerson id="borrows-chester" href="#" showAs="Hon Chester Borrows"/>
         <TLCPerson id="carter-david" href="#" showAs="David Carter (Speaker)"/>
         <TLCPerson id="curran-clare" href="#" showAs="CLARE CURRAN (Labour)"/>
         <TLCPerson id="mallard-trevor" href="#" showAs="Hon Trevor Mallard"/>
+        <TLCPerson id="tolley-anne" href="#" showAs="Hon ANNE TOLLEY (Minister for Social Development)"/>
         
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
         <TLCPerson id="deputy-speaker" href="#deputy-speaker" showAs="Deputy Speaker {?}"/>
@@ -27,14 +30,10 @@
     </preface>
     
     <debateBody>
-      <prayers></prayers>
-      
-      <questions>
-       <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
-       <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</answer>
- 
-      </questions>
-    
+      <prayers>
+        <heading>Prayers</heading>
+      </prayers>
+
       <!-- https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170726_20170726/tab/video?page=7&mode=form -->
       <!-- https://www.youtube.com/watch?v=nwTd6RvvDoQ -->
       <!-- Speaker's Ruling -->
@@ -50,6 +49,23 @@
 
         <p>We will begin the daily routine.</p>
       </speech>
+
+      <questions>
+        <heading>Oral questions</heading>
+        <heading>QUESTIONS TO MINISTERS</heading>
+        <heading>Social Development, Minister—Statements</heading>
+
+        <question alternativeTo="" as="" by="#adern-jacinda" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="#tolley-anne">
+         <from>JACINDA ARDERN (Deputy Leader—Labour)</from>
+         <p> to the Minister for Social Development: Does she stand by her statement yesterday that the Ministry of Social Development Household Incomes report shows "both lower and higher income households are getting the benefit of a strong and growing economy"; if so, does that statement take into account rising housing costs?</p>
+         
+       </question>
+       <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">
+         <from>Hon ANNE TOLLEY (Minister for Social Development)</from>
+         <p>Yes. As I said in the House yesterday, the report shows that the net improvement at the top of each income decile has been reasonably even across the board, which means that the 11 percent increase above inflation since 2008 is fairly evenly distributed. I refer the member to figure D.10 on page 76 of the incomes report, which shows the real equivalised household incomes after housing costs changes for the top of deciles from 2008-09 to 2015-16, which shows households have growing income across the spectrum.</p>
+        </answer>
+
+      </questions>
 
       <petitions>
         <heading>FILMS, VIDEOS, AND PUBLICATIONS CLASSIFICATION (INTERIM RESTRICTION ORDERS) AMENDMENT BILL</heading>
