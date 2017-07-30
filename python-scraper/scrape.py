@@ -5,6 +5,19 @@ from bs4 import BeautifulSoup
 import requests
 import sys
 
+class Preface:
+    title = ""
+    link = ""
+    date = ""
+
+    def asXML(self):
+        x = '<Preface>\n'
+        x = x + '<title>' + self.title + '</title>\n'
+        x = x + '<link>' + self.link + '</link>\n'
+        x = x + '<date>' + self.date + '</date>\n' 
+        x = x + '</Preface>\n'
+        return x
+
 class Debate:
     title = ""
     subTitle = ""
@@ -82,13 +95,14 @@ def flatten(tag):
 def parseSpeech(tag):
     a = tag.a['name']
     p = a.index('_')
-    t = a[p+1:-1]
+    t = a[p+1:]
     s = Speech()
+    s.content = []
     c = SpeechContent()
     c.type = "Speech"
     f = flatten(tag)
     p = f.index(':')
-    c.text = f[p+1:-1]
+    c.text = f[p+1:]
     c.name = f[0:p]
     s.by = c.name
     s.time = t
@@ -106,7 +120,7 @@ def parseInterjection(tag):
     c.type = "Interjection"
     f = flatten(tag)
     p = f.index(':')
-    c.text = f[p+1:-1]
+    c.text = f[p+1:]
     c.name = f[0:p]
     return c
     
@@ -115,7 +129,7 @@ def parseContinueSpeech(tag):
     c.type = "ContinueSpeech"
     f = flatten(tag)
     p = f.index(':')
-    c.text = f[p+1:-1]
+    c.text = f[p+1:]
     c.name = f[0:p]
     return c
 
@@ -124,7 +138,7 @@ def parseIntervention(tag):
     c.type = "Intervention"
     f = flatten(tag)
     p = f.index(':')
-    c.text = f[p+1:-1]
+    c.text = f[p+1:]
     c.name = f[0:p]
     return c
 
@@ -132,14 +146,18 @@ def parseIntervention(tag):
 def main(date):
     bills = []
     debates = []
+    preface = Preface()
 
     url = "https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_" + date + '_' + date
     r = requests.get(url)
     if r.status_code != 200:
         return
 
+    preface.link = url
+
     data = r.text
     soup = BeautifulSoup(data, "html.parser")
+    preface.title = flatten(soup.title)
 
     count = 1
     for body in soup.find_all('body'):
@@ -150,13 +168,17 @@ def main(date):
             currentSpeech = None
             for para in p:
                 c = para['class'][0]
+                if c == "BeginningOfDay":
+                    preface.date = flatten(para)
                 if c == "BillDebate":
                     bill = BillDebate()
+                    bill.speeches = []
                     bill.title = flatten(para)
                     bills.append(bill)
                     current = bill
                 if c == "Debate":
                     debate = Debate()
+                    debate.speeches = []
                     debate.title = flatten(para)
                     debates.append(debate)
                     current = debate
@@ -187,8 +209,11 @@ def main(date):
                     if currentSpeech != None:
                         s = parseIntervention(para)
                         currentSpeech.content.append(s)
-                        
+
     print('<?xml version="1.0" encoding="UTF-8"?>')
+    print('<Hansard>')
+    xml = preface.asXML().encode('utf-8')
+    print(xml)
     print("<Debates>")
     for b in debates:
         xml = b.asXML().encode('utf-8')
@@ -202,6 +227,7 @@ def main(date):
         print(xml )
 
     print('</Bills>')
+    print('</Hansard>')
 
 if __name__ == "__main__":
     if len(sys.argv) == 2:
