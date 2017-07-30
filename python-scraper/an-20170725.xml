@@ -1,0 +1,102 @@
+
+<?xml version="1.0"?>
+<akomaNtoso>
+  <debate name="hansard">
+
+<Meta>
+      <references source="#source">
+        <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
+        <TLCPerson id="bishop-christopher" href="/ontology/person/bishop-christopher" showAs="CHRIS BISHOP (National)"/>
+        <TLCPerson id="little-andrew" href="/ontology/person/little-andrewr" showAs="ANDREW LITTLE (Leader of the Opposition)"/>
+        <TLCPerson id="tirikatene-rino" href="/ontology/person/tirikatene-rino" showAs="RINO TIRIKATENE (Labour-Te Tai Tonga)"/>
+       <TLCPerson id="borrows-chester" href="/ontology/person/borrows-chester" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
+        <TLCPerson id="sepuloni-carmel" href="/ontology/person/sepuloni-carmel" showAs="Carmel Sepuloni"/>
+        <TLCPerson id="curran-clare" href="/ontology/person/curran-clare" showAs="Clare Curran"/>
+        <TLCPerson id="dyson-ruth" href="/ontology/person/dyson-ruth" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
+        <TLCPerson id="mallard-trevor" href="/ontology/person/mallard-trevor" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
+        <TLCPerson id="tisch-lindsay" href="/ontology/person/tisch-lindsay" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
+        <TLCPerson id="bennett-paula" href="/ontology/person/bennett-paula" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
+        <TLCPerson id="speaker-deputy" href="/ontology/person/speaker-deputy" showAs="Mr Deputy Speaker"/>
+        <TLCPerson id="prosser-richard" href="/ontology/person/prosser-richard" showAs="RICHARD PROSSER (NZ First)"/>
+        <TLCPerson id="english-bill" href="/ontology/person/english-bill" showAs="Rt Hon BILL ENGLISH (Prime Minister)"/>
+ 
+        <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
+      </references>
+
+</Meta>
+
+<Preface>
+<docTitle>
+	Tuesday, 25 July 2017 - Volume 724 - New Zealand Parliament 
+</docTitle>
+<docDate>TUESDAY, 25 JULY 2017</docDate>
+<docAuthority>parliament.nz</docAuthority>
+<legislature>51st Parliament</legislature>
+<link rel="alternate" type="text/html" href="https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170725_20170725"/>
+</Preface>
+
+<DebateBody>
+<questions>
+            <question alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</question>
+            <answer alternativeTo="" as="" by="" class="" endTime="" evolvingId="" id="" lang="" period="" refersTo="" space="" startTime="" status="" style="" title="" to="">{1,1}</answer>
+ 
+        </questions>
+<speech by="#speaker">
+<from>Mr SPEAKER<from>
+<p> Honourable members, I am sure that members would wish to welcome members of the Standing Committee on Agriculture and Water Resources from the Australian House of Representatives, led by Chairperson Rick Wilson, present in the gallery.</p>
+</speech>
+
+<speech by="#speaker">
+<from>Mr SPEAKER<from>
+<p> I will have a look at both of those matters and respond directly to the member.</p>
+</speech>
+
+<speech by="#speaker">
+<from>Mr SPEAKER<from>
+<p> I have received a letter from Andrew Little seeking to debate under Standing Order 389 the finding that staff of the Ministry of Transport were disadvantaged after they raised concerns about the conduct of Joanne Harrison. The finding was set out in the report of the investigation into whistleblower treatment within the Ministry of Transport released by the State Services Commissioner. The release of the findings on this matter is a particular case of recent occurrence for which there is ministerial responsibility.</p>
+<p>The matter raised by Mr Little is a very serious one. The Public Service has a reputation for professionalism and integrity. The findings in this case risk damage to that reputation. Public servants were disadvantaged for doing the right thing in reporting conduct that was later found to be criminal. Such cases are rare, but they deserve the attention of this House.</p>
+</speech>
+
+<speech by="#english-bill">
+<from>Rt Hon BILL ENGLISH (Prime Minister)<from>
+<p> I raise a point of order, Mr Speaker. I just want to correct an answer I gave to a supplementary question in question No. 2—I am sorry; I am seeking leave to correct an answer.</p>
+</speech>
+
+<speech by="#speaker-deputy">
+<from>Mr DEPUTY SPEAKER<from>
+<p> Leave is put for that purpose. Is there any objection? There appears to be none.</p>
+</speech>
+
+<speech by="#english-bill">
+<from>Rt Hon BILL ENGLISH<from>
+<p> In answer to a supplementary question, I said we have more State houses than we have had before. I should have said we have more emergency houses than we have seen before.</p>
+</speech>
+
+<speech by="#bennett-paula">
+<from>Hon PAULA BENNETT (Minister of State Services)<from>
+<p> I have not met the public servants and the staff who have been involved in this, but I have been told that they are salt of the earth, hard-working, very good people, who in no way deserved this kind of treatment. I find myself standing here and agreeing with a lot of what the Leader of the Opposition has said in this debate and finding myself in a position where we certainly take the role of whistleblowers and public servants incredibly seriously. This investigation that has been done at the urging of the State Services Commissioner is something that we will be taking very seriously. I am pleased to see that these whistleblowers will be given compensation and that they have received an apology from the State Services Commissioner, as I would expect they should do, in person. Now, I think, there is a wider problem for us to then look to addressing, and that is about how we look at very old legislation, and I am just going to talk a little bit more about that.</p>
+<p>As has been discussed, we had an investigation that has been carried out by former Deputy State Services Commissioner Sandi Beatie. It was in response, of course, to public concern that public servants raised issues about Ms Harrison's activities. I am kind of tempted to use quite strong language in regard to Joanne Harrison, but let us just make it clear that she was a sophisticated, deceitful, and manipulative person who took advantage of her senior position at the Ministry of Transport and has been dealt with through the courts, as she should be. At no point, though, should hard-working public servants who are expressing concerns genuinely and are doing the right thing feel in any way that they should be treated in any way except for respectfully, and there should be a process that supports them in that. If the legislation is not up to date enough and is not doing the job it should, which I think this investigation quite clearly shows us—there should have been those protections there—then I am more than willing, as the Minister of State Services, to look at that and ensure it.</p>
+<p>I have a huge amount of respect for our public servants. I think they do an incredible job, from those who work at the front counters of Work and Income and the Police through to those who give us policy advice, and the leaders within the Public Service as well. I think that they deserve our protection and they deserve our recognition for the hard work that they do. I must say, it is one of the reasons I am absolutely thrilled to be the Minister of State Services. I get the best of them and how they work, and they deserve our respect for it.</p>
+<p>Ms Beatie has found that four staff within the Ministry of Transport raised concerns about Joanne Harrison's behaviour and then suffered disadvantage—that is the language that Ms Beatie uses throughout her investigation—in the processes that they were involved in. No staff were made redundant because they raised the concerns. It is the belief of the investigation that those redundancies were going to happen anyway, but they were disadvantaged because it was not done in the right way. It was done earlier than it should have been. There can be absolutely no doubt that Ms Harrison had a role to play in that, and, as such, that is the disadvantage. Ms Beatie found that, as I say, they were not made redundant because of raising the concerns about Joanne Harrison, but she did find that the redundancies were due to the ministry moving to an automated accounts payable process. This was a planned move that was legitimate for the ministry, and Joanne Harrison actually had no control over that actual decision. However, the investigation did find that the staff suffered a disadvantage and unnecessary hurt and humiliation due to the process that was followed when they were made redundant, and Ms Harrison was involved in that process.</p>
+<p>I think it is as much for the hurt and humiliation that I stand here as the Minister of State Services and say no public servant should be treated that way. None should have to go through that in any way, shape, or form. One should not be playing favourites, but these were very hard-working, long-service public servants, I am led to believe, and so there is no way that their careers should have ended in that kind of way. Ms Beatie has recommended that the staff receive an apology and that the State Services Commissioner works with them to reach an agreement on appropriate compensation. The State Services Commissioner has met with the former staff members and their families. He has thanked them for their public service. He has apologised to them for the treatment they received after raising genuine and well-founded concerns, and he is happy to and did repeat that apology publicly, as well. He has also agreed with them that there will be a package of redress and settlement for the disadvantage that they suffered.</p>
+<p>The other point of it is then getting to what we can do about the whistle-blowing and the actual legislation and what is happening there. Ms Beatie also identified two other cases where individual Ministry of Transport staff may have been treated badly by Ms Harrison. These were not related to whistle-blowing, and were outside of the investigation's terms of reference. However, the State Services Commissioner passed that on to Mr Mersi, the chief executive, and he is looking at it so they can go through that.</p>
+<p>There are recommendations for steps that the public sector agencies can take to support their staff who raise these concerns, to make sure that they can do that safely. The State Services Commissioner, Peter Hughes, has actually issued some very strong standards on effective systems for Government agencies, because I think we do need to look at the whole way that the systems go through to ensure that we are actually getting this right. The commissioner has been very upfront that those standards need to be met. He has ensured that they go out to every agency, so that everyone is very clear about what they are. He has published the standards to really make sure, as I said, that we have those effective systems, including under the Protected Disclosures Act.</p>
+<p>He is also recommending that the Government look at the Protected Disclosures Act, and that it needs to be reviewed and updated. It is 17 years old. It would be fair to say that it no longer reflects international best practice, and we need to make it more up to date, to make it more user-friendly for people making disclosures, and to introduce proper reporting and monitoring requirements. I am very happy to look at that Act. I am very happy to take his recommendations. I have heard one of the Opposition members talk about what that process should be for how we go through the changes in that Act. I have not really thought through what that process will be as far as consultation goes and how it would be, but I am very happy for it to be as wide-reaching as it kind of needs to be.</p>
+<p>A couple of things—I think that we most definitely have a lot to be proud of in this country, actually, when it comes to our Public Service, and that we are one of the most transparent and least corrupt places in the world. We do not get to stay at the top and say that unless we are actually doing something about it and making the kind of difference that needs to be made when we come across incidents like this. We need to remember that our Public Service does an outstanding job; that we are the equal least corrupt country, according to Transparency International; that we are the most prosperous country in the world; that we are the first for ease of doing business; and that we are the third greatest for economic freedom, I must say, as well. But when it comes to transparency and corruption I think that a vital part of it is that our public servants are seen as independent, that they are seen as not being party political, and that they are able to address very real concerns that they have and make sure that they are taken seriously and that they are kept safe. If that means that we need to update the Act to make sure that it is in line with what really needs to be done, then, as I say, I, as the Minister, am really up for doing that.</p>
+<p>I am not sure there is a lot more I can add except for that I am very happy, in my role as the State services' Minister, to recognise the hurt and humiliation of those public servants that, as I say, from what I have seen from the report, certainly should not have happened. I too offer my apologies to them. I would like to see them treated fairly, which is what the State Services Commissioner is doing. He is the right person to be doing that, as the leader of our State services. I am going to look at the Act and go through that with the commissioner, taking his advice, but also making sure that the public service, the unions, the Public Service Association, and National Union of Public Employees have a real say in what that looks like and how we keep people safe and protected. Thank you.</p>
+</speech>
+
+<speech by="#mallard-trevor">
+<from>The CHAIRPERSON (Hon Trevor Mallard)<from>
+<p> The Standing Orders provide for 11 hours of debate on the Estimates. The Business Committee has determined that the Estimates debate be divided into 10 separate debates covering the sectors set out in the Estimates of Appropriations for 2017-18. Each debate will be led by a call from the chairperson of the select committee nominated by the Government as the major committee reporting on the sector. The Labour Party will have two calls, the Green Party will have one call, New Zealand First will have one call, and the Minister in the chair will have three calls in response—all are 5-minute calls. Members may take unused allocated calls later in the Estimates debate. </p>
+<p>In addition, there are 52 five-minute supplementary calls that have been allocated to parties that may be taken as parties see fit during those 10 separate debates. At the end of each debate the question will be put that the votes in each sector stand part of the schedules.</p>
+<p>The time taken on each question is in the hands of members, depending on parties' use of their allocation of supplementary calls. However, this debate expires after 11 hours. The Estimates debate should be relevant to the Government's current spending plans, as contained in the Estimates of Appropriations. All of the votes are available for debate. A compendium of the reports of select committees on the votes is available on the Table.</p>
+<p>Members, we come to the first of the votes in the Economic Development and Infrastructure Sector, B.5, Vol. 1. The question is that Vote Business, Science, and Innovation; Vote Labour Market; and Vote Transport stand part of the schedules.</p>
+</speech>
+
+</DebateBody>
+
+    
+  </debate>
+</akomaNtoso>
+
