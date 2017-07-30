@@ -63,7 +63,7 @@ class Meta:
        <TLCPerson id="chester-borrows" href="#" showAs="The CHAIRPERSON (Hon Chester Borrows)"/>
         <TLCPerson id="carmel-sepuloni" href="#" showAs="Carmel Sepuloni"/>
         <TLCPerson id="clare-curran" href="#" showAs="Clare Curran"/>
-        <TLCPerson id="dyson-ruth" href="#" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
+        <TLCPerson id="ruth-dyson" href="#" showAs="Hon RUTH DYSON (Labour-Port Hills)"/>
         <TLCPerson id="mallard-trevor" href="#" showAs="The CHAIRPERSON (Hon Trevor Mallard)"/>
         <TLCPerson id="lindsay-tisch" href="#" showAs="The CHAIRPERSON (Lindsay Tisch)"/>
         <TLCPerson id="paula-bennett" href="#" showAs="Hon PAULA BENNETT (Minister of State Services)"/>
