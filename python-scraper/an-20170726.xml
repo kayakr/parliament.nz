@@ -2,7 +2,7 @@
 <akomaNtoso>
   <debate name="hansard">
 
-<Meta>
+<meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
         <TLCPerson id="chris-bishop" href="#" showAs="CHRIS BISHOP (National)"/>
@@ -22,9 +22,9 @@
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
       </references>
 
-</Meta>
+</eta>
 
-<Preface>
+<preface>
 <docTitle>
 	Wednesday, 26 July 2017 - Volume 724 - New Zealand Parliament 
 </docTitle>
@@ -32,7 +32,7 @@
 <docAuthority>parliament.nz</docAuthority>
 <legislature>51st Parliament</legislature>
 <link rel="alternate" type="text/html" href="https://www.parliament.nz/en/pb/hansard-debates/rhr/combined/HansD_20170726_20170726"/>
-</Preface>
+</preface>
 
 <debateBody>
 <questions>
