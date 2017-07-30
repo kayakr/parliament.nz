@@ -26,4 +26,6 @@ https://2017.hackerspace.govhack.org/project/open-voices
 
 ## References
 
-* 
+* http://sayit.mysociety.org/
+* http://www.akomantoso.org/
+* http://www.popoloproject.com/
