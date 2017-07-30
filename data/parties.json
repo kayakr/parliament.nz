@@ -1,0 +1,116 @@
+{
+  "organizations": [
+    {
+      "id": "national-party",
+      "name": "National Party",
+      "other_names": [
+        {
+          "name": "National"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "https://www.national.org.nz/",
+          "note": "Party website"
+        }
+      ]
+    },
+    {
+      "id": "labour-party",
+      "name": "Labour Party",
+      "other_names": [
+        {
+          "name": "Labour"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "http://www.labour.org.nz/",
+          "note": "Party website"
+        }
+      ]
+    },
+    {
+      "id": "green-party",
+      "name": "Green Party",
+      "other_names": [
+        {
+          "name": "Greens"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "https://greens.org.nz/",
+          "note": "Party website"
+        }
+      ]
+    },
+    {
+      "id": "nz-first-party",
+      "name": "NZ First Party",
+      "other_names": [
+        {
+          "name": "NZ First"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "http://www.nzfirst.org.nz/",
+          "note": "Party website"
+        }
+      ]
+    },
+    {
+      "id": "united-future-party",
+      "name": "United Future Party",
+      "other_names": [
+        {
+          "name": "United Future"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "",
+          "note": "Party website"
+        }
+      ]
+    },
+    {
+      "id": "maori-party",
+      "name": "Māori Party",
+      "other_names": [
+        {
+          "name": "Māori"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "http://www.maoriparty.org/",
+          "note": "Party website"
+        }
+      ]
+    },
+    {
+      "id": "act-party",
+      "name": "ACT Party",
+      "other_names": [
+        {
+          "name": "ACT"
+        }
+      ],
+      "classification": "political party",
+      "links": [
+        {
+          "url": "http://act.org.nz/",
+          "note": "Party website"
+        }
+      ]
+    }
+  ]
+}
