@@ -31,7 +31,7 @@ class Speech:
     def asXML(self):
         id = mpl.find(self.by)
         x = '<speech by="#'+ id +'">\n'
-        x = x + '<from>' + self.by + '<from>\n'
+        x = x + '<from>' + self.by + '</from>\n'
         for t in self.text:
             x = x + '<p>' + t + '</p>\n'
         x = x + '</speech>\n'
@@ -202,8 +202,7 @@ def main(filename):
     debate.parseHansard(root)
 
 
-    header = '''
-<?xml version="1.0"?>
+    header = '''<?xml version="1.0"?>
 <akomaNtoso>
   <debate name="hansard">
 '''
