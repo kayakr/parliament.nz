@@ -30,3 +30,4 @@ https://2017.hackerspace.govhack.org/project/open-voices
 * http://sayit.mysociety.org/
 * http://www.akomantoso.org/
 * http://www.popoloproject.com/
+* Icons Creative Commons BY 3.0 from and [Madebyoliver](https://www.flaticon.com/authors/madebyoliver) and [Gregor Cresnar](https://www.flaticon.com/authors/gregor-cresnar) on (www.flaticon.com).
