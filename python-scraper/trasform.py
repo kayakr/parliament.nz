@@ -54,7 +54,7 @@ class Meta:
     references = []
 
     def asXML(self):
-        x = '''<Meta>
+        x = '''<meta>
       <references source="#source">
         <TLCOrganization id="source" href="/ontology/organization/ca.open.north.inc" showAs="Open North Inc."/>
         <TLCPerson id="chris-bishop" href="#" showAs="CHRIS BISHOP (National)"/>
@@ -74,7 +74,7 @@ class Meta:
         <TLCPerson id="speaker" href="/ontology/person/ca-ns.speaker" showAs="Speaker {?}"/>
       </references>
 
-</Meta>
+</meta>
 '''
         return x
 
@@ -88,14 +88,14 @@ class Preface:
     link = ""
     
     def asXML(self):
-        x = '<Preface>\n'
+        x = '<preface>\n'
         x = x + '<docTitle>' + self.docTitle + '</docTitle>\n'
         x = x + '<docDate>' + self.docDate + '</docDate>\n'
         x = x + '<docAuthority>' + self.docAuthority + '</docAuthority>\n'
         x = x + '<legislature>' + self.legislature + '</legislature>\n'
         
         x = x + '<link rel="alternate" type="text/html" href="' + self.link  + '"/>\n'
-        x = x + '</Preface>\n'
+        x = x + '</preface>\n'
         return x
 
 class Question:
